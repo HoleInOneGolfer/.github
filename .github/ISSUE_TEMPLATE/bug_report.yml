@@ -1,38 +1,33 @@
-name: 🐛Bug Report
-description: File a bug report here
-title: "[BUG]: "
+name: 🐛 Bug report
+description: Report a bug in the project
+title: "🐞 [BUG] "
 labels: ["bug"]
 assignees: ["HoleInOneGolfer"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report 🤗
-        Make sure there aren't any open/closed issues for this topic 😃
-        
   - type: textarea
-    id: bug-description
+    id: description
     attributes:
-      label: Description of the bug
-      description: Give us a brief description of what happened and what should have happened
-    validations:
-      required: true
-      
+      label: "📋 Description"
+      description: "What's the bug? Describe it briefly."
+      placeholder: "Describe the bug"
+
+  - type: input
+    id: environment
+    attributes:
+      label: "🌍 Environment"
+      description: "Where did this happen?"
+      placeholder: "e.g., OS, Browser, Node.js version"
+
   - type: textarea
-    id: steps-to-reproduce
+    id: steps
     attributes:
-      label: Steps To Reproduce
-      description: Steps to reproduce the behavior.
-      placeholder: |
-        1. Go to '...'
-        2. Click on '...'
-        3. Scroll down to '...'
-        4. See error
-    validations:
-      required: true
-  - type: textarea
-    id: additional-information
+      label: "🔁 Steps to Reproduce"
+      description: "How do we see this bug?"
+      placeholder: "1. Do this\n2. Then this\n3. See error"
+
+  - type: input
+    id: additional_info
     attributes:
-      label: Additional Information
-      description: |
-        Provide any additional information such as logs, screenshots, likes, scenarios in which the bug occurs so that it facilitates resolving the issue.
+      label: "ℹ️ Additional Info"
+      description: "Any other details?"
+      placeholder: "Any other information"
