@@ -9,6 +9,9 @@ url: "https://docs.benbowles.me"  # The custom domain URL
 markdown: kramdown
 theme: minima  # Or any other theme you prefer
 
+minima:
+  include_nav: false  # Disables the auto-generated navigation
+
 # Plugins (optional)
 plugins:
   - jekyll-feed  # Optional: Provides an RSS feed for your site
