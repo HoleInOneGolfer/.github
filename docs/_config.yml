@@ -1,6 +1,6 @@
 # docs/_config.yml
 
-title: "Benjamin Bowles Documentation"
+title: ""  # Leave this empty if you don't want a site-wide title
 description: "Terms of Service, Privacy Policy, and other legal documents."
 baseurl: ""  # No subdirectory; deploying to the root of docs.benbowles.me
 url: "https://docs.benbowles.me"  # The custom domain URL
@@ -11,7 +11,7 @@ theme: minima  # Or any other theme you prefer
 
 # Plugins (optional)
 plugins:
-  - jekyll-feed  # Provides an RSS feed for your site (optional)
+  - jekyll-feed  # Optional: Provides an RSS feed for your site
 
 # Exclude these files and directories from the build process
 exclude:
@@ -21,7 +21,7 @@ exclude:
   - vendor/
   - .github/  # Exclude the root .github directory if it's present
 
-# Defaults for pages (optional)
+# Defaults for pages
 defaults:
   - scope:
       path: ""  # Applies to all files
