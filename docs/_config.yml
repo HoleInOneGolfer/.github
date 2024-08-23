@@ -1,16 +1,16 @@
 # docs/_config.yml
 
-title: ""  # Leave this empty if you don't want a site-wide title
+title: ""  # No site-wide title
 description: "Terms of Service, Privacy Policy, and other legal documents."
 baseurl: ""  # No subdirectory; deploying to the root of docs.benbowles.me
-url: "https://docs.benbowles.me"  # The custom domain URL
+url: "https://docs.benbowles.me"  # Custom domain URL
 
-# Build settings
-markdown: kramdown
-theme: minima  # Or any other theme you prefer
+# Theme settings
+theme: minima  # Using the Minima theme or another preferred theme
 
+# Disable the navigation bar (specific to Minima theme)
 minima:
-  include_nav: false  # Disables the auto-generated navigation
+  include_nav: false  # Disables the auto-generated navigation bar
 
 # Plugins (optional)
 plugins:
@@ -24,10 +24,9 @@ exclude:
   - vendor/
   - .github/  # Exclude the root .github directory if it's present
 
-# Defaults for pages
+# Defaults for pages (optional)
 defaults:
   - scope:
       path: ""  # Applies to all files
     values:
-      layout: "default"
-      title: ""
+      layout: ""  # No layout, keeping it minimal
