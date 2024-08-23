@@ -1,5 +1,6 @@
 ---
 title: "Terms of Service"
+permalink: /tos
 ---
 
 # Terms of Service
