@@ -6,8 +6,6 @@ url: "https://docs.benbowles.me"  # Custom domain URL
 # Theme settings
 theme: minima  # Using the Minima theme or another preferred theme
 
-header_pages:
-
 # Plugins (optional)
 plugins:
   - jekyll-feed  # Optional: Provides an RSS feed for your site
