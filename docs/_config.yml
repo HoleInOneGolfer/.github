@@ -29,4 +29,4 @@ defaults:
   - scope:
       path: ""  # Applies to all files
     values:
-      layout: ""  # No layout, keeping it minimal
+      layout: "default"  # No layout, keeping it minimal
