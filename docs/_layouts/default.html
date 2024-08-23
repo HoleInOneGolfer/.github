@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en" }}">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
+
+        <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+        <link rel="stylesheet" href="{{ "/assets/custom.css" | relative_url }}">
+
+        {%- include head-custom.html -%}
+    </head>
+
+    <body>
+        <header class="site-header" role="banner">
+            <!-- Removed navigation code from header -->
+            <div class="wrapper">
+                <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | default: site.name | escape }}</a>
+            </div>
+        </header>
+
+        <div class="page-content">
+            <div class="wrapper">
+                {{ content }}
+            </div>
+        </div>
+
+        <footer class="site-footer">
+            <div class="wrapper">
+                <p>&copy; {{ "now" | date: "%Y" }} {{ site.title | default: site.name | escape }}</p>
+            </div>
+        </footer>
+    </body>
+
+</html>
