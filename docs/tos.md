@@ -1,3 +1,7 @@
+---
+permalink: /tos
+---
+
 # Terms of Service
 
 **Effective Date:** Whenever you read this

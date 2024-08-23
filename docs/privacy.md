@@ -1,3 +1,7 @@
+---
+permalink: /privacy
+---
+
 # Privacy Policy
 
 **Effective Date:** Whenever you read this
