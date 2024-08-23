@@ -3,20 +3,17 @@
 title: ""  # Leave the title empty or set it to what you want
 description: "An unofficial TOS and Privacy Policy for API requirements."
 
-# Disable showing the repo name as the title
 theme: minima  # Or any other theme you're using
+
+# Disable showing the repo name as the title
 defaults:
   - scope:
       path: ""  # Apply to all files
     values:
       title: ""  # This ensures no default title is used
 
-# Other configurations can go here
-markdown: kramdown
-highlighter: rouge
-
 # Base URL settings
-baseurl: "" # Adjust if the site is in a subdirectory
+baseurl: "/docs" # Set the subdirectory you want to use
 
 # Optional configurations
-permalink: pretty  # Optional, use pretty URLs
+permalink: pretty  # Use pretty URLs for other pages
