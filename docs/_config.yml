@@ -1,16 +1,8 @@
-# docs/_config.yml
-
-title: ""  # No site-wide title
-description: "Terms of Service, Privacy Policy, and other legal documents."
 baseurl: ""  # No subdirectory; deploying to the root of docs.benbowles.me
 url: "https://docs.benbowles.me"  # Custom domain URL
 
 # Theme settings
 theme: minima  # Using the Minima theme or another preferred theme
-
-# Disable the navigation bar (specific to Minima theme)
-minima:
-  include_nav: false  # Disables the auto-generated navigation bar
 
 # Plugins (optional)
 plugins:
@@ -29,4 +21,4 @@ defaults:
   - scope:
       path: ""  # Applies to all files
     values:
-      layout: "default"  # No layout, keeping it minimal
+      layout: "default"  # Use the default layout provided by the theme
