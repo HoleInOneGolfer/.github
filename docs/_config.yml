@@ -12,8 +12,5 @@ defaults:
     values:
       title: ""  # This ensures no default title is used
 
-# Base URL settings
-baseurl: "/docs" # Set the subdirectory you want to use
-
 # Optional configurations
 permalink: pretty  # Use pretty URLs for other pages
