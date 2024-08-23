@@ -1,6 +1,5 @@
 ---
 title: "Privacy Policy"
-layout: custom
 ---
 
 # Privacy Policy
