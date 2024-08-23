@@ -1,3 +1,5 @@
+title: "" 
+description: "" 
 baseurl: ""  # No subdirectory; deploying to the root of docs.benbowles.me
 url: "https://docs.benbowles.me"  # Custom domain URL
 
