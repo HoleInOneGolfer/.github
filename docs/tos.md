@@ -42,4 +42,18 @@ If you have any questions or concerns, feel free to reach out:
 
 **Email:** [tos@benbowles.me](mailto:tos@benbowles.me)
 
-*Note: I don’t check this email every day, so please allow some time for a response.*
+---
+
+# Disclaimers
+
+### Accuracy and Performance
+While I try to make sure everything I build works correctly, I’m only one person. I don’t give any warranties about the accuracy or reliability of the information or tools provided. If a project gives you an answer or a result, double-check it.
+
+### External Links
+My projects might link to other websites or services that I don't own or control. I’m not responsible for the content, privacy policies, or practices of any third-party sites.
+
+### AI Disclosure
+Some of my projects may use Artificial Intelligence (AI) to generate content or provide features. AI can occasionally be wrong or "hallucinate" information. Please use any AI-generated output with a healthy dose of common sense.
+
+### "As-Is" Status
+Everything here is provided for your convenience. I’m not a professional legal, financial, or technical advisor. By using these tools, you acknowledge that I am not liable for any decisions you make based on them.
